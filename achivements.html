@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Achievements | Roshani Sonawane</title>
+  <style>
+    body {
+      font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6c63ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .achievements {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .achievement-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .achievement-card:hover {
+      transform: translateY(-5px);
+    }
+    .achievement-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #6c63ff;
+    }
+    .achievement-date {
+      font-size: 14px;
+      color: #888;
+      margin-top: 5px;
+    }
+    .achievement-desc {
+      margin-top: 10px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Roshani Sonawane</h1>
+    <p>My Achievements</p>
+  </header>
+
+  <div class="container">
+    <h2>Achievements & Recognitions</h2>
+    <div class="achievements">
+
+      <div class="achievement-card">
+        <div class="achievement-title">Best Student of the Year</div>
+        <div class="achievement-date">2023</div>
+        <div class="achievement-desc">Awarded for academic excellence and overall performance in final year of graduation.</div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-title">Hackathon Winner</div>
+        <div class="achievement-date">2022</div>
+        <div class="achievement-desc">Secured 1st position in inter-college hackathon for creating a real-time pollution tracking app.</div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-title">Google Cloud Certification</div>
+        <div class="achievement-date">2021</div>
+        <div class="achievement-desc">Completed Google Cloud Foundations and Data Engineering training with certification.</div>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-title">Internship at Infosys</div>
+        <div class="achievement-date">2023</div>
+        <div class="achievement-desc">Completed a 2-month internship in web development and contributed to internal tools.</div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
